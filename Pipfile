@@ -8,6 +8,7 @@ pandas = "*"
 numpy = "*"
 matplotlib = "*"
 openpyxl = "*"
+sas7bdat = "*"
 
 [dev-packages]
 
