@@ -9,6 +9,7 @@ numpy = "*"
 matplotlib = "*"
 openpyxl = "*"
 sas7bdat = "*"
+h5py = "*"
 
 [dev-packages]
 
