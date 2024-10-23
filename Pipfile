@@ -11,6 +11,7 @@ openpyxl = "*"
 sas7bdat = "*"
 h5py = "*"
 scipy = "*"
+sqlalchemy = "*"
 
 [dev-packages]
 
