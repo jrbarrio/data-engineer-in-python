@@ -14,6 +14,7 @@ scipy = "*"
 sqlalchemy = "*"
 xlrd = "*"
 requests = "*"
+bs4 = "*"
 
 [dev-packages]
 
