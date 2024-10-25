@@ -12,6 +12,7 @@ sas7bdat = "*"
 h5py = "*"
 scipy = "*"
 sqlalchemy = "*"
+xlrd = "*"
 
 [dev-packages]
 

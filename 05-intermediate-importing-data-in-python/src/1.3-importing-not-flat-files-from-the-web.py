@@ -5,21 +5,10 @@ import pandas as pd
 url = 'https://assets.datacamp.com/course/importing_data_into_r/latitude.xls'
 
 # Read in all sheets of Excel file: xls
-xls = pd.ExcelFile(url)
+xls = pd.read_excel(url, sheet=None)
 
 # Print the sheetnames to the shell
 print(xls.sheet_names)
 
 # Print the head of the first sheet (using its name, NOT its index)
-print(xls.parse('1700').head())
-
-# OR
-
-# Read in all sheets of Excel file: xls
-xls = pd.read_excel(url, sheet_name=None)
-
-# Print the sheetnames to the shell
-print(xls.keys())
-
-# Print the head of the first sheet (using its name, NOT its index)
-print(xls['1700'].head())
+print(xls.parse(0).head())
