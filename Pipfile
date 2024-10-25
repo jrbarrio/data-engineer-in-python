@@ -13,6 +13,7 @@ h5py = "*"
 scipy = "*"
 sqlalchemy = "*"
 xlrd = "*"
+requests = "*"
 
 [dev-packages]
 
