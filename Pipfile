@@ -16,6 +16,8 @@ xlrd = "*"
 requests = "*"
 bs4 = "*"
 tweepy = "*"
+python-dotenv = "*"
+seaborn = "*"
 
 [dev-packages]
 

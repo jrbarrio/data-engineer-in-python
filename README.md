@@ -14,4 +14,6 @@ pipenv install xlrd
 pipenv install requests
 pipenv install bs4
 pipenv install tweepy
+pipenv install python-dotenv
+pipenv install seaborn
 ```
