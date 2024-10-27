@@ -18,6 +18,7 @@ bs4 = "*"
 tweepy = "*"
 python-dotenv = "*"
 seaborn = "*"
+missingno = "*"
 
 [dev-packages]
 
