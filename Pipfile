@@ -19,6 +19,7 @@ tweepy = "*"
 python-dotenv = "*"
 seaborn = "*"
 missingno = "*"
+thefuzz = "*"
 
 [dev-packages]
 
