@@ -18,4 +18,5 @@ pipenv install python-dotenv
 pipenv install seaborn
 pipenv install missingno
 pipenv install thefuzz
+pipenv install recordlinkage
 ```
