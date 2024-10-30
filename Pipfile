@@ -21,6 +21,7 @@ seaborn = "*"
 missingno = "*"
 thefuzz = "*"
 recordlinkage = "*"
+jupyter = "*"
 
 [dev-packages]
 
