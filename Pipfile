@@ -23,6 +23,7 @@ thefuzz = "*"
 recordlinkage = "*"
 jupyter = "*"
 line-profiler = "*"
+memory-profiler = "*"
 
 [dev-packages]
 
