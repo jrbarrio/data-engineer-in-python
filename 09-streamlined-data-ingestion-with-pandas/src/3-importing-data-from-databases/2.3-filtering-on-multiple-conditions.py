@@ -1,6 +1,5 @@
 from sqlalchemy import create_engine
 import pandas as pd
-import matplotlib.pyplot as plt
 
 filename = './09-streamlined-data-ingestion-with-pandas/files/data.db'
 
