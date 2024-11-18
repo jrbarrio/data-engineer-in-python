@@ -22,4 +22,5 @@ pipenv install recordlinkage
 pipenv install jupyter
 pipenv install line_profiler
 pipenv install memory_profiler
+pipenv install pycodestyle
 ```
