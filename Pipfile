@@ -25,6 +25,7 @@ jupyter = "*"
 line-profiler = "*"
 memory-profiler = "*"
 pycodestyle = "*"
+setiptools = "*"
 
 [dev-packages]
 
