@@ -710,3 +710,12 @@ print(datacamp_doc.tokens[:5])
 
 # print the top 5 most used words in datacamp_doc
 print(datacamp_doc.word_counts.most_common(5))
+
+# Create a SocialMedia instance with datacamp_tweets
+dc_tweets = text_analyzer.SocialMedia(text=datacamp_tweets)
+
+# Print the top five most mentioned users
+print(dc_tweets.mention_counts.most_common(5))
+
+# Plot the most used hashtags
+text_analyzer.plot_counter(dc_tweets.hashtag_counts)
