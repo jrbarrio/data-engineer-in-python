@@ -17,3 +17,10 @@ class SocialMedia(Document):
     
     def _filter_word_counts(self, word_counts, first_char):
         return word_counts
+    
+    def plot_counts(self, plot_type):
+        if plot_type == 'hashtag_counts':
+            print(self.hashtag_counts)
+        elif plot_type == 'mention_counts':
+            print(self.mention_counts)
+        

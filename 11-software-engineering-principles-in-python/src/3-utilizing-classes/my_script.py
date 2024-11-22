@@ -719,3 +719,9 @@ print(dc_tweets.mention_counts.most_common(5))
 
 # Plot the most used hashtags
 text_analyzer.plot_counter(dc_tweets.hashtag_counts)
+
+# Create instance of Tweets
+my_tweets = text_analyzer.Tweets(datacamp_tweets)
+
+# Plot the most used hashtags in the retweets
+my_tweets.retweets.plot_counts('hashtag_counts')
