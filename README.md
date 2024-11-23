@@ -24,4 +24,6 @@ pipenv install line_profiler
 pipenv install memory_profiler
 pipenv install pycodestyle
 pipenv install setuptools
+pipenv install pytest
+pipenv install ipytest
 ```
