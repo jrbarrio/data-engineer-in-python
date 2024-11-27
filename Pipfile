@@ -28,6 +28,7 @@ pycodestyle = "*"
 setuptools = "*"
 pytest = "*"
 ipytest = "*"
+apache-airflow = "*"
 
 [dev-packages]
 

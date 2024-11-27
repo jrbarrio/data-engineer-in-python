@@ -26,4 +26,5 @@ pipenv install pycodestyle
 pipenv install setuptools
 pipenv install pytest
 pipenv install ipytest
+pipenv install apache-airflow
 ```
