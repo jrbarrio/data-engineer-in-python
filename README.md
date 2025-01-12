@@ -1,3 +1,5 @@
+https://app.datacamp.com/learn/career-tracks/data-engineer-in-python
+
 ```
 pyenv virtualenv 3.9.20 data-engineer-in-python
 echo "data-engineer-in-python" > .python-version
